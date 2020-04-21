@@ -60,15 +60,6 @@ group by
 -- mostrar un -1; ordenar los resultados por promedio de mayor a menor y por nombre del
 -- profesor alfabéticamente
 
-show tables
-describe profesores
-describe cursos_profesores
-describe cursos
-describe alumnos_cursos
-select * from cursos_profesores
-select * from cursos
-select * from alumnos_cursos
-
 --funciona 3 partes de la tabla num | nombre | curso
 select
     numero_trabajador,
